@@ -11,7 +11,7 @@ on:
 
 jobs:
   digger-job:
-    uses: kieranbrown/github-actions/.github/workflows/digger_workflow.yaml@v1
+    uses: kieranbrown/github-actions/.github/workflows/digger-workflow.yaml@v1
     secrets: inherit
     permissions:
       actions: write       # required for plan persistence
